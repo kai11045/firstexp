@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#18202f"/>
+  <rect x="240" y="160" width="120" height="180" rx="8" fill="#4a6fa5"/>
+  <rect x="380" y="160" width="120" height="180" rx="8" fill="#8bd5ff"/>
+  <rect x="520" y="160" width="120" height="180" rx="8" fill="#ffd56a"/>
+  <line x1="300" y1="160" x2="300" y2="340" stroke="#fff" stroke-width="2" opacity="0.5"/>
+  <line x1="440" y1="160" x2="440" y2="340" stroke="#fff" stroke-width="2" opacity="0.5"/>
+  <line x1="580" y1="160" x2="580" y2="340" stroke="#fff" stroke-width="2" opacity="0.5"/>
+  <text x="50%" y="88%" fill="#aab2c5" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle">书籍（占位图像）</text>
+</svg>

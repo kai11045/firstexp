@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121829"/>
+      <stop offset="100%" stop-color="#0b0f19"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g>
+    <circle cx="400" cy="240" r="120" fill="#d43c3c" opacity="0.85"/>
+    <polygon points="400,120 430,220 370,220" fill="#ffcf33" opacity="0.9"/>
+  </g>
+  <text x="50%" y="82%" fill="#e6e8ef" font-family="Arial, Helvetica, sans-serif" font-size="28" text-anchor="middle">天元突破 红莲螺岩</text>
+  <text x="50%" y="92%" fill="#aab2c5" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle">占位图像 Placeholder</text>
+</svg>

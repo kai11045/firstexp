@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1b1423"/>
+  <path d="M 280 360 L 520 140 L 540 160 L 300 380 Z" fill="#ff4d6d"/>
+  <circle cx="520" cy="140" r="20" fill="#ffd56a"/>
+  <text x="50%" y="88%" fill="#e6e8ef" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle">ARPG（占位图像）</text>
+</svg>

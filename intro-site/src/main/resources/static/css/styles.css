@@ -38,9 +38,8 @@ body {
 
 .container { max-width: 1080px; margin: 32px auto; padding: 0 20px; }
 
-.hero { text-align: center; padding: 64px 0; }
-.hero h1 { font-size: 40px; margin: 0 0 12px; }
-.hero p { color: var(--muted); margin: 0 0 20px; }
+.list { padding-left: 18px; }
+.list li { margin: 6px 0; }
 
 .btn { display: inline-block; padding: 10px 16px; border-radius: 10px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: #031022; text-decoration: none; font-weight: 600; box-shadow: var(--shadow); border: none; cursor: pointer; }
 .btn.secondary { background: transparent; color: var(--text); border: 1px solid var(--border); box-shadow: none; }
@@ -48,6 +47,23 @@ body {
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 16px; box-shadow: var(--shadow); }
 .card h3 { margin-top: 0; }
+
+.figure { margin: 0; }
+.figure img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); display: block; }
+.figure figcaption { color: var(--muted); font-size: 14px; margin-top: 6px; }
+
+.grid { display: grid; gap: 12px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.links { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 8px; }
+.links a { color: var(--brand-2); text-decoration: none; }
+.links a:hover, .links a:focus { text-decoration: underline; }
+
+@media (max-width: 768px) {
+	.grid-2 { grid-template-columns: 1fr; }
+	.grid-3 { grid-template-columns: 1fr; }
+}
 
 .form { display: grid; gap: 12px; max-width: 560px; }
 .form label { display: grid; gap: 6px; color: var(--muted); }
