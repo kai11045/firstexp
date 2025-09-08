@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head}"></head>
+<body>
+	<div th:replace="~{layout :: header}"></div>
+	<main class="container">
+		<section class="hero">
+			<h1 th:text="${title}">欢迎来到我的个人网站</h1>
+			<p th:text="${tagline}">副标题</p>
+			<div class="cta-group">
+				<a class="btn" th:href="@{/projects}">查看项目</a>
+				<a class="btn secondary" th:href="@{/about}">了解我</a>
+			</div>
+		</section>
+	</main>
+	<div th:replace="~{layout :: footer}"></div>
+</body>
+</html>

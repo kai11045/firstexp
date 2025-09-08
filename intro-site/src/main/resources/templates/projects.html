@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head}"></head>
+<body>
+	<div th:replace="~{layout :: header}"></div>
+	<main class="container">
+		<section>
+			<h1 th:text="${title}">项目作品</h1>
+			<div class="cards">
+				<article class="card">
+					<h3>个人博客</h3>
+					<p>基于 Spring Boot + Thymeleaf 的博客系统。</p>
+				</article>
+				<article class="card">
+					<h3>数据可视化仪表盘</h3>
+					<p>使用 React + ECharts 构建的数据展示平台。</p>
+				</article>
+				<article class="card">
+					<h3>开源工具集</h3>
+					<p>常用脚本与效率工具集合，持续维护。</p>
+				</article>
+			</div>
+		</section>
+	</main>
+	<div th:replace="~{layout :: footer}"></div>
+</body>
+</html>

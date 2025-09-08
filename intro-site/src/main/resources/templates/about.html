@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head}"></head>
+<body>
+	<div th:replace="~{layout :: header}"></div>
+	<main class="container">
+		<section>
+			<h1 th:text="${title}">关于我</h1>
+			<p th:text="${bio}">这里是个人简介。</p>
+			<ul class="list">
+				<li>技能：Java、Spring、Thymeleaf、JavaScript、React</li>
+				<li>兴趣：系统设计、可视化、产品思维</li>
+				<li>位置：地球上的某处</li>
+			</ul>
+		</section>
+	</main>
+	<div th:replace="~{layout :: footer}"></div>
+</body>
+</html>
