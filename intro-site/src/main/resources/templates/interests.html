@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head}"></head>
+<body>
+	<div th:replace="~{layout :: header}"></div>
+	<main class="container">
+		<section>
+			<h1>兴趣</h1>
+			<div class="cards">
+				<article class="card">
+					<h2>动漫</h2>
+					<figure class="figure">
+						<img th:src="@{/assets/anime/gurren-lagann.svg}" alt="天元突破 红莲螺岩" />
+						<figcaption>天元突破 红莲螺岩</figcaption>
+					</figure>
+					<figure class="figure">
+						<img th:src="@{/assets/anime/madoka-magica.svg}" alt="魔法少女小圆" />
+						<figcaption>魔法少女小圆</figcaption>
+					</figure>
+					<ul class="links">
+						<li><a href="https://baike.baidu.com/item/%E5%A4%A9%E5%85%83%E7%AA%81%E7%A0%B4%E7%BA%A2%E8%8E%B2%E8%9E%BA%E5%B2%A9" target="_blank" rel="noopener">Baidu Baike：天元突破 红莲螺岩</a></li>
+						<li><a href="https://search.bilibili.com/all?keyword=%E5%A4%A9%E5%85%83%E7%AA%81%E7%A0%B4%20%E7%BA%A2%E8%8E%B2%E8%9E%BA%E5%B2%A9" target="_blank" rel="noopener">Bilibili：天元突破 搜索</a></li>
+						<li><a href="https://baike.baidu.com/item/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86" target="_blank" rel="noopener">Baidu Baike：魔法少女小圆</a></li>
+						<li><a href="https://search.bilibili.com/all?keyword=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86" target="_blank" rel="noopener">Bilibili：小圆 搜索</a></li>
+					</ul>
+				</article>
+
+				<article class="card">
+					<h2>游戏</h2>
+					<div class="grid grid-3">
+						<figure class="figure">
+							<img th:src="@{/assets/games/crpg.svg}" alt="CRPG" />
+							<figcaption>CRPG</figcaption>
+						</figure>
+						<figure class="figure">
+							<img th:src="@{/assets/games/arpg.svg}" alt="ARPG" />
+							<figcaption>ARPG</figcaption>
+						</figure>
+						<figure class="figure">
+							<img th:src="@{/assets/games/open-world.svg}" alt="开放世界" />
+							<figcaption>开放世界</figcaption>
+						</figure>
+					</div>
+					<ul class="links">
+						<li><a href="https://baike.baidu.com/item/CRPG" target="_blank" rel="noopener">Baidu Baike：CRPG</a></li>
+						<li><a href="https://baike.baidu.com/item/%E5%8A%A8%E4%BD%9C%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94%E6%B8%B8%E6%88%8F" target="_blank" rel="noopener">Baidu Baike：动作角色扮演（ARPG）</a></li>
+						<li><a href="https://baike.baidu.com/item/%E5%BC%80%E6%94%BE%E4%B8%96%E7%95%8C" target="_blank" rel="noopener">Baidu Baike：开放世界</a></li>
+					</ul>
+				</article>
+
+				<article class="card">
+					<h2>书籍</h2>
+					<figure class="figure">
+						<img th:src="@{/assets/books/books.svg}" alt="书籍" />
+						<figcaption>书籍</figcaption>
+					</figure>
+					<ul class="links">
+						<li><a href="https://baike.baidu.com/item/%E4%B9%A6%E7%B1%8D" target="_blank" rel="noopener">Baidu Baike：书籍</a></li>
+					</ul>
+				</article>
+
+				<article class="card">
+					<h2>宠物（孔雀鱼）</h2>
+					<div class="grid grid-2">
+						<figure class="figure">
+							<img th:src="@{/assets/pets/guppy-1.svg}" alt="孔雀鱼 1" />
+							<figcaption>孔雀鱼 1</figcaption>
+						</figure>
+						<figure class="figure">
+							<img th:src="@{/assets/pets/guppy-2.svg}" alt="孔雀鱼 2" />
+							<figcaption>孔雀鱼 2</figcaption>
+						</figure>
+					</div>
+					<ul class="links">
+						<li><a href="https://baike.baidu.com/item/%E5%AD%94%E9%9B%80%E9%B1%BC" target="_blank" rel="noopener">Baidu Baike：孔雀鱼</a></li>
+					</ul>
+				</article>
+			</div>
+		</section>
+	</main>
+	<div th:replace="~{layout :: footer}"></div>
+</body>
+</html>

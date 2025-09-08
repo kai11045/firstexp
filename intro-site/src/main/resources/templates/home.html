@@ -4,13 +4,14 @@
 <body>
 	<div th:replace="~{layout :: header}"></div>
 	<main class="container">
-		<section class="hero">
-			<h1 th:text="${title}">欢迎来到我的个人网站</h1>
-			<p th:text="${tagline}">副标题</p>
-			<div class="cta-group">
-				<a class="btn" th:href="@{/projects}">查看项目</a>
-				<a class="btn secondary" th:href="@{/about}">了解我</a>
-			</div>
+		<section>
+			<h1>快速信息</h1>
+			<ul class="list">
+				<li>姓名：Zhang Kaiwen</li>
+				<li>性别：男</li>
+				<li>年龄：21</li>
+				<li>专业：计算机科学与技术</li>
+			</ul>
 		</section>
 	</main>
 	<div th:replace="~{layout :: footer}"></div>
