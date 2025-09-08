@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="water2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a2540"/>
+      <stop offset="100%" stop-color="#0f3a60"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#water2)"/>
+  <g transform="translate(360,260)">
+    <ellipse cx="0" cy="0" rx="90" ry="50" fill="#ffd56a"/>
+    <polygon points="90,0 180,-70 180,70" fill="#ffb32a"/>
+    <circle cx="-30" cy="-8" r="6" fill="#0b0f19"/>
+  </g>
+  <path d="M 60 120 Q 160 140 260 120 T 460 120 T 660 120" fill="none" stroke="#8ec6ff" stroke-width="4" opacity="0.5"/>
+  <text x="50%" y="90%" fill="#fff2cc" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle">孔雀鱼 Guppy（占位图像）</text>
+</svg>
